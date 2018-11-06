@@ -50,6 +50,22 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Angular View Queries
 ![Alt text](./Screenshot8.png?raw=true "Optional Title")
 
+## Angular Change Detection
+![Alt text](./Screenshot9.png?raw=true "Optional Title")
+
+## Zone API
+![Alt text](./Screenshot10.png?raw=true "Optional Title")
+![Alt text](./Screenshot11.png?raw=true "Optional Title")
+
+## NgZone
+![Alt text](./Screenshot12.png?raw=true "Optional Title")
+
+## Change Detection in Ng
+![Alt text](./Screenshot13.png?raw=true "Optional Title")
+
+## Change Detection Ref
+![Alt text](./Screenshot14.png?raw=true "Optional Title")
+
 ## Important Articles
 
 [How to manually bootstrap an Angular application](https://blog.angularindepth.com/how-to-manually-bootstrap-an-angular-application-9a36ccf86429)

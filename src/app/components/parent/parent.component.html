@@ -1,3 +1,10 @@
-<h1>Current Count: {{counter}}</h1>
+<!-- <h1>Current Count: {{counter}}</h1>
 
-<app-child (couterChanged)="oncouterChanged($event)"></app-child>
+<app-child (couterChanged)="oncouterChanged($event)"></app-child> -->
+
+<app-child [user]="user"></app-child>
+
+<br/><br/>
+<button (click)="changeProperty()">Change Property</button>
+
+<button (click)="changeObject()">Chage Object</button>
