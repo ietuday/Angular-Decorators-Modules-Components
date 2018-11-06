@@ -41,13 +41,17 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Angular Decorators
 ![Alt text](./Screenshot5.png?raw=true "Optional Title")
 
+## Angular Component
+![Alt text](./Screenshot6.png?raw=true "Optional Title")
+
+## Angular Component MetaData
+![Alt text](./Screenshot7.png?raw=true "Optional Title")
+
 ## Important Articles
 
-[How to manually bootstrap an Angular application]
-(https://blog.angularindepth.com/how-to-manually-bootstrap-an-angular-application-9a36ccf86429)
+[How to manually bootstrap an Angular application](https://blog.angularindepth.com/how-to-manually-bootstrap-an-angular-application-9a36ccf86429)
 
-[Angular decorators and class inheritance]
-(https://medium.com/@ttemplier/angular2-decorators-and-class-inheritance-905921dbd1b7)
+[Angular decorators and class inheritance](https://medium.com/@ttemplier/angular2-decorators-and-class-inheritance-905921dbd1b7)
 
 ## IMP Points
 
