@@ -37,3 +37,16 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Other IMP Commands
 ![Alt text](./Screenshot4.png?raw=true "Optional Title")
+
+## Important Articles
+
+[How to manually bootstrap an Angular application]
+(https://blog.angularindepth.com/how-to-manually-bootstrap-an-angular-application-9a36ccf86429)
+
+** platformBrowserDynamic is a function used to bootstrap an Angular application.
+
+** CommonModule is a module that provides all kinds of services and directives one usually wants to use in an Angular2 application like ngIf. CommonModule is platform-independent.
+
+** BrowserModule exports CommonModule and provides a few services specific to the browser platform (in contrary to ServerModule or ServiceWorkerModule).
+
+** BrowserModule should only be imported in AppModule, CommonModule can be imported everywhere.
