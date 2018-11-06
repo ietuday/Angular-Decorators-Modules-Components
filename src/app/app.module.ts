@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { ChatComponent } from './components/chat/chat.component';
 import { MessageListComponent } from './components/message-list/message-list.component';
 import { MessageComponent } from './components/message/message.component';
+import { ChildComponent } from './components/child/child.component';
+import { ParentComponent } from './components/parent/parent.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ChatComponent,
     MessageListComponent,
-    MessageComponent
+    MessageComponent,
+    ChildComponent,
+    ParentComponent
   ],
   imports: [
     BrowserModule,

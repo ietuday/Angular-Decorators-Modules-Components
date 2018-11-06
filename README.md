@@ -58,6 +58,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 [Ways of Bootstrapping Angular Applications](https://medium.com/learnwithrahul/ways-of-bootstrapping-angular-applications-d379f594f604)
 
+[Create Advanced Components in Angular](https://netbasal.com/create-advanced-components-in-angular-e0655df5dde6)
+
 ## IMP Points
 
 ** platformBrowserDynamic is a function used to bootstrap an Angular application.
