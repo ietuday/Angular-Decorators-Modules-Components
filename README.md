@@ -47,6 +47,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Angular Component MetaData
 ![Alt text](./Screenshot7.png?raw=true "Optional Title")
 
+## Angular View Queries
+![Alt text](./Screenshot8.png?raw=true "Optional Title")
+
 ## Important Articles
 
 [How to manually bootstrap an Angular application](https://blog.angularindepth.com/how-to-manually-bootstrap-an-angular-application-9a36ccf86429)
