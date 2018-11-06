@@ -37,3 +37,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Other IMP Commands
 ![Alt text](./Screenshot4.png?raw=true "Optional Title")
+
+## Angular Decorators
+![Alt text](./Screenshot5.png?raw=true "Optional Title")
