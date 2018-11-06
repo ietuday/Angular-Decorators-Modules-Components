@@ -38,6 +38,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Other IMP Commands
 ![Alt text](./Screenshot4.png?raw=true "Optional Title")
 
+## Angular Decorators
+![Alt text](./Screenshot5.png?raw=true "Optional Title")
+
 ## Important Articles
 
 [How to manually bootstrap an Angular application]
@@ -50,3 +53,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ** BrowserModule exports CommonModule and provides a few services specific to the browser platform (in contrary to ServerModule or ServiceWorkerModule).
 
 ** BrowserModule should only be imported in AppModule, CommonModule can be imported everywhere.
+
