@@ -46,6 +46,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 [How to manually bootstrap an Angular application]
 (https://blog.angularindepth.com/how-to-manually-bootstrap-an-angular-application-9a36ccf86429)
 
+[Angular decorators and class inheritance]
+(https://medium.com/@ttemplier/angular2-decorators-and-class-inheritance-905921dbd1b7)
+
+## IMP Points
+
 ** platformBrowserDynamic is a function used to bootstrap an Angular application.
 
 ** CommonModule is a module that provides all kinds of services and directives one usually wants to use in an Angular2 application like ngIf. CommonModule is platform-independent.
