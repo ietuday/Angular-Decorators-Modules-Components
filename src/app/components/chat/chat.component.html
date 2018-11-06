@@ -1,0 +1,15 @@
+<p>
+  {{title}}
+</p>
+<hr>
+
+<input type="text" [value]="titleBinding"/>
+<br><br><br><br><br>  
+
+<button (click)="getData()">DataData</button>
+
+<br><br><br><br><br><br>
+<input type="text" [(ngModel)]="twoWayBinded" name="bindedTwoWays">
+
+<br>
+<p>{{twoWayBinded}}</p>
