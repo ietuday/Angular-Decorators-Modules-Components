@@ -76,6 +76,20 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 [Create Advanced Components in Angular](https://netbasal.com/create-advanced-components-in-angular-e0655df5dde6)
 
+[How Angular uses NgZone/Zone.js for Dirty Checking](https://blog.bitsrc.io/how-angular-uses-ngzone-zone-js-for-dirty-checking-faa12f98cd49)
+
+[USING ZONES IN ANGULAR FOR BETTER PERFORMANCE](https://blog.thoughtram.io/angular/2017/02/21/using-zones-in-angular-for-better-performance.html)
+
+[Do you still think that NgZone (zone.js) is required for change detection in Angular?](https://blog.angularindepth.com/do-you-still-think-that-ngzone-zone-js-is-required-for-change-detection-in-angular-16f7a575afef)
+
+[Understanding NgZone](https://dzone.com/articles/understanding-ngzone)
+
+[Everything you need to know about the `ExpressionChangedAfterItHasBeenCheckedError` error](https://blog.angularindepth.com/everything-you-need-to-know-about-the-expressionchangedafterithasbeencheckederror-error-e3fd9ce7dbb4)
+
+[Understanding ViewChildren, ContentChildren, and QueryList in Angular](https://netbasal.com/understanding-viewchildren-contentchildren-and-querylist-in-angular-896b0c689f6e)
+
+
+
 ## IMP Points
 
 ** platformBrowserDynamic is a function used to bootstrap an Angular application.
