@@ -12,6 +12,7 @@ export class MessageListComponent implements OnInit,AfterViewInit {
   @ViewChildren(MessageComponent) AllmessageComponent: QueryList<MessageComponent>;
 
   @ContentChild(MessageComponent) firstProjectedMessageComponent: MessageComponent;
+  @ContentChild('tempMessage') tempProjectedMessageComponent: MessageComponent;
   @ContentChildren(MessageComponent) allFirstProjectedMessageComponent: QueryList<MessageComponent>;
 
 
@@ -37,11 +38,11 @@ export class MessageListComponent implements OnInit,AfterViewInit {
         console.log(message);
         message.message = 'Changed Message from MessageList Component';  
       });
-
-      this.firstProjectedMessageComponent.message = 'Changed ContentChild';
-      this.allFirstProjectedMessageComponent.toArray().forEach((message)=> {
-        message.message = 'Changed Content';
-      })
+      this.tempProjectedMessageComponent.message =' Changed from temp Reference';
+      // this.firstProjectedMessageComponent.message = 'Changed ContentChild';
+      // this.allFirstProjectedMessageComponent.toArray().forEach((message)=> {
+      //   message.message = 'Changed Content';
+      // })
     });
   }
 
