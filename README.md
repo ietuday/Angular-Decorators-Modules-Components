@@ -70,6 +70,39 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ![Alt text](./Screenshot15.png?raw=true "Optional Title")
 ![Alt text](./Screenshot16.png?raw=true "Optional Title")
 
+## Angular Routing
+![Alt text](./Screenshot17.png?raw=true "Optional Title")
+
+## View Encapsulation
+![Alt text](./Screenshot18.png?raw=true "Optional Title")
+
+## Child Route and Params
+![Alt text](./Screenshot19.png?raw=true "Optional Title")
+
+## Types of Route Path
+![Alt text](./Screenshot20.png?raw=true "Optional Title")
+
+## Guards
+![Alt text](./Screenshot21.png?raw=true "Optional Title")
+
+## Types of Guards
+![Alt text](./Screenshot22.png?raw=true "Optional Title")
+
+## Guard Processing
+![Alt text](./Screenshot23.png?raw=true "Optional Title")
+
+## CanActivate/CanActivateChild
+![Alt text](./Screenshot24.png?raw=true "Optional Title")
+
+## CanDeactivate
+![Alt text](./Screenshot25.png?raw=true "Optional Title")
+
+## Resolve
+![Alt text](./Screenshot26.png?raw=true "Optional Title")
+
+## Content Projection
+![Alt text](./Screenshot28.png?raw=true "Optional Title")
+
 
 ## Important Articles
 
