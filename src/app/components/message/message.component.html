@@ -1,3 +1,9 @@
-<p>
+<!-- <p>
   {{message}}
-</p>
+</p> -->
+
+<div *ngIf="message">
+  {{message}} | <button class="glyphicon glyphicon-trash" (click)="delete()">Delete</button>
+</div>
+
+<ng-content></ng-content>

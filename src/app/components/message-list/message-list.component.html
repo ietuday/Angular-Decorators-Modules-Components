@@ -1,6 +1,23 @@
-<p>
+<!-- <p>
   message-list works!
 </p>
 <h6>View Content</h6>
 <app-message *ngFor="let message of messageList" [message]="message"></app-message>
-<ng-content></ng-content>
+<ng-content></ng-content> -->
+
+<input type="text" (keyup.enter)="addMessage()" [(ngModel)]="message">
+
+<h1>
+  List of Components
+</h1>
+
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let message of messages; let i = index">
+      <app-message [message]="message.message"
+                   [index]="i"
+                   (messageDeleted)="onMessageDelete($event)">
+      </app-message>
+  </li>
+</ul>
+
+<button *ngIf="messages.length > 0" (click)="changeFirstMessage()">Change First Message</button>

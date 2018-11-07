@@ -8,20 +8,22 @@ import { MessageComponent } from '../message/message.component';
 })
 export class MessageListComponent implements OnInit,AfterViewInit {
   
-  @ViewChild(MessageComponent) messageComponent: MessageComponent;
-  @ViewChildren(MessageComponent) AllmessageComponent: QueryList<MessageComponent>;
+  // @ViewChild(MessageComponent) messageComponent: MessageComponent;
+  // @ViewChildren(MessageComponent) AllmessageComponent: QueryList<MessageComponent>;
 
-  @ContentChild(MessageComponent) firstProjectedMessageComponent: MessageComponent;
-  @ContentChild('tempMessage') tempProjectedMessageComponent: MessageComponent;
-  @ContentChildren(MessageComponent) allFirstProjectedMessageComponent: QueryList<MessageComponent>;
+  // @ContentChild(MessageComponent) firstProjectedMessageComponent: MessageComponent;
+  // @ContentChild('tempMessage') tempProjectedMessageComponent: MessageComponent;
+  // @ContentChildren(MessageComponent) allFirstProjectedMessageComponent: QueryList<MessageComponent>;
 
 
-  messageList: string[] = [
-    'hi',
-    'hello',
-    'bye'
-  ];
+  // messageList: string[] = [
+  //   'hi',
+  //   'hello',
+  //   'bye'
+  // ];
 
+  messages: Array<{ message: string}> = [];
+  message:string = '';
   
   constructor() { 
     
@@ -32,18 +34,32 @@ export class MessageListComponent implements OnInit,AfterViewInit {
   }
 
   ngAfterViewInit(){
-    setTimeout(() => {
-      this.messageComponent.message = 'Changed Message from MessageList Component';  
-      this.AllmessageComponent.toArray().forEach(message => {
-        console.log(message);
-        message.message = 'Changed Message from MessageList Component';  
-      });
-      this.tempProjectedMessageComponent.message =' Changed from temp Reference';
+    // setTimeout(() => {
+    //   this.messageComponent.message = 'Changed Message from MessageList Component';  
+    //   this.AllmessageComponent.toArray().forEach(message => {
+    //     console.log(message);
+    //     message.message = 'Changed Message from MessageList Component';  
+    //   });
+    //   this.tempProjectedMessageComponent.message =' Changed from temp Reference';
       // this.firstProjectedMessageComponent.message = 'Changed ContentChild';
       // this.allFirstProjectedMessageComponent.toArray().forEach((message)=> {
       //   message.message = 'Changed Content';
       // })
-    });
+    // });
+  }
+
+  addMessage(){
+    this.messages.push({ message: this.message}); 
+    this.message = '';
+  }
+
+  onMessageDelete($event){
+    console.log($event);
+    this.messages.splice($event,1);
+  }
+
+  changeFirstMessage(){
+    this.messages[0].message = 'New and Changed Message!';
   }
 
 }

@@ -66,6 +66,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Change Detection Ref
 ![Alt text](./Screenshot14.png?raw=true "Optional Title")
 
+## Angular LifeCycle Hooks
+![Alt text](./Screenshot15.png?raw=true "Optional Title")
+![Alt text](./Screenshot16.png?raw=true "Optional Title")
+
+
 ## Important Articles
 
 [How to manually bootstrap an Angular application](https://blog.angularindepth.com/how-to-manually-bootstrap-an-angular-application-9a36ccf86429)
@@ -88,6 +93,21 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 [Understanding ViewChildren, ContentChildren, and QueryList in Angular](https://netbasal.com/understanding-viewchildren-contentchildren-and-querylist-in-angular-896b0c689f6e)
 
+[Cryptography for JavaScript/Node.js developers: Part 1 Hash Function](https://medium.com/@promentol/cryptography-for-javascript-node-js-developers-part-1-hash-function-86d119c7304)
+
+[Angular LifeCycles Hooks](https://codecraft.tv/courses/angular/components/lifecycle-hooks)
+
+[Component Lifecycle Hooks In Angular 5](https://www.c-sharpcorner.com/article/learn-about-angular-lifecycle-hooks/)
+
+[If you think `ngDoCheck` means your component is being checked — read this article](https://blog.angularindepth.com/if-you-think-ngdocheck-means-your-component-is-being-checked-read-this-article-36ce63a3f3e5)
+
+[ANGULAR 2 AND OBSERVABLES: DATA SHARING IN A MULTI-VIEW APPLICATION](https://www.lucidchart.com/techblog/2016/11/08/angular-2-and-observables-data-sharing-in-a-multi-view-application/)
+
+[USING ANGULAR 2 COMPONENTS IN A NON-ANGULAR APP](https://www.lucidchart.com/techblog/2017/04/10/using-angular-2-components-in-a-non-angular-app/)
+
+[Reducung server loads](https://www.lucidchart.com/techblog/2017/06/02/tips-tricks-for-reducing-server-load/)
+
+[Angular Pipes Advanced :5 USAGE IDEAS FOR ANGULAR PIPES](https://www.lucidchart.com/techblog/2017/11/08/5-usage-ideas-for-angular-pipes/)
 
 
 ## IMP Points
