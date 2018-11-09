@@ -27,81 +27,101 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ##SPA vs MPA
-![Alt text](./Screenshot1.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot1.png?raw=true "Optional Title")
 
 ## Angular Architecture
-![Alt text](./Screenshot2.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot2.png?raw=true "Optional Title")
 
 ## Angular IMP Commands
-![Alt text](./Screenshot3.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot3.png?raw=true "Optional Title")
 
 ## Other IMP Commands
-![Alt text](./Screenshot4.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot4.png?raw=true "Optional Title")
 
 ## Angular Decorators
-![Alt text](./Screenshot5.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot5.png?raw=true "Optional Title")
 
 ## Angular Component
-![Alt text](./Screenshot6.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot6.png?raw=true "Optional Title")
 
 ## Angular Component MetaData
-![Alt text](./Screenshot7.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot7.png?raw=true "Optional Title")
 
 ## Angular View Queries
-![Alt text](./Screenshot8.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot8.png?raw=true "Optional Title")
 
 ## Angular Change Detection
-![Alt text](./Screenshot9.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot9.png?raw=true "Optional Title")
 
 ## Zone API
-![Alt text](./Screenshot10.png?raw=true "Optional Title")
-![Alt text](./Screenshot11.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot10.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot11.png?raw=true "Optional Title")
 
 ## NgZone
-![Alt text](./Screenshot12.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot12.png?raw=true "Optional Title")
 
 ## Change Detection in Ng
-![Alt text](./Screenshot13.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot13.png?raw=true "Optional Title")
 
 ## Change Detection Ref
-![Alt text](./Screenshot14.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot14.png?raw=true "Optional Title")
 
 ## Angular LifeCycle Hooks
-![Alt text](./Screenshot15.png?raw=true "Optional Title")
-![Alt text](./Screenshot16.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot15.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot16.png?raw=true "Optional Title")
 
 ## Angular Routing
-![Alt text](./Screenshot17.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot17.png?raw=true "Optional Title")
 
 ## View Encapsulation
-![Alt text](./Screenshot18.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot18.png?raw=true "Optional Title")
 
 ## Child Route and Params
-![Alt text](./Screenshot19.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot19.png?raw=true "Optional Title")
 
 ## Types of Route Path
-![Alt text](./Screenshot20.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot20.png?raw=true "Optional Title")
 
 ## Guards
-![Alt text](./Screenshot21.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot21.png?raw=true "Optional Title")
 
 ## Types of Guards
-![Alt text](./Screenshot22.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot22.png?raw=true "Optional Title")
 
 ## Guard Processing
-![Alt text](./Screenshot23.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot23.png?raw=true "Optional Title")
 
 ## CanActivate/CanActivateChild
-![Alt text](./Screenshot24.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot24.png?raw=true "Optional Title")
 
 ## CanDeactivate
-![Alt text](./Screenshot25.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot25.png?raw=true "Optional Title")
 
 ## Resolve
-![Alt text](./Screenshot26.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot26.png?raw=true "Optional Title")
 
 ## Content Projection
-![Alt text](./Screenshot28.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot28.png?raw=true "Optional Title")
+
+## Why DI
+![Alt text](./Screenshoots/Screenshot29.png?raw=true "Optional Title")
+
+## DI as Framework
+![Alt text](./Screenshoots/Screenshot30.png?raw=true "Optional Title")
+
+## What is DI
+![Alt text](./Screenshoots/Screenshot31.png?raw=true "Optional Title")
+
+## Injectors & Providers
+![Alt text](./Screenshoots/Screenshot32.png?raw=true "Optional Title")
+
+## Types of Provider
+![Alt text](./Screenshoots/Screenshot33.png?raw=true "Optional Title")
+
+## Hierarchical DI
+![Alt text](./Screenshoots/Screenshot33.png?raw=true "Optional Title")
+
+
 
 
 ## Important Articles
@@ -142,6 +162,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 [Angular Pipes Advanced :5 USAGE IDEAS FOR ANGULAR PIPES](https://www.lucidchart.com/techblog/2017/11/08/5-usage-ideas-for-angular-pipes/)
 
+[Element injectors in angular](https://blog.angularindepth.com/a-curios-case-of-the-host-decorator-and-element-injectors-in-angular-582562abcf0a)
 
 ## IMP Points
 
