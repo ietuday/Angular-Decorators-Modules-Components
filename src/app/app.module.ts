@@ -19,6 +19,9 @@ import { UsersComponent } from './components/users/users.component';
 import { UserDetailsComponent } from './components/user-details/user-details.component';
 import { UserComponent } from './components/user/user.component';
 import { PlaceholderComponent } from './components/placeholder/placeholder.component';
+import { ParentShareComponent } from './components/parent-share/parent-share.component';
+import { OneComponent } from './components/one/one.component';
+import { TwoComponent } from './components/two/two.component';
 
 
 @NgModule({
@@ -36,7 +39,10 @@ import { PlaceholderComponent } from './components/placeholder/placeholder.compo
     UsersComponent,
     UserDetailsComponent,
     UserComponent,
-    PlaceholderComponent
+    PlaceholderComponent,
+    ParentShareComponent,
+    OneComponent,
+    TwoComponent
   ],
   imports: [
     BrowserModule,

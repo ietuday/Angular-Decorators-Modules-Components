@@ -11,6 +11,7 @@ import { AuthGuard } from '../guards/auth/auth.guard';
 import { MessageListComponent } from '../components/message-list/message-list.component';
 import { ConfirmationGuard } from '../guards/confirmation/confirmation.guard';
 import { UsersResolveGuard } from '../guards/users-resolve/users-resolve.guard';
+import { ParentShareComponent } from '../components/parent-share/parent-share.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent},
@@ -27,6 +28,7 @@ const appRoutes: Routes = [
       // { path: '', component: PlaceholderComponent}
   ]},
   { path: 'messages', component: MessageListComponent, canDeactivate: [ ConfirmationGuard]},
+  { path: 'parent-share', component: ParentShareComponent},
   { path: '**', redirectTo: '/home', pathMatch: 'full'}
 
 

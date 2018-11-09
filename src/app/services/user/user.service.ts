@@ -2,14 +2,16 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 
 import { IUser } from 'src/app/interfaces/user';
-import { Observable } from 'rxjs';
+import { Observable, BehaviorSubject } from 'rxjs';
+import { map, retry, catchError } from 'rxjs/operators';
 @Injectable({
   providedIn: 'root'
 })
 export class UserService {
   private _rootUrl: string = 'https://jsonplaceholder.typicode.com/users';
   private _rootPostsUrl: string = 'https://jsonplaceholder.typicode.com/posts';
-
+  private _prop:string = 'foo';
+  public propChanged:BehaviorSubject<string> = new BehaviorSubject<string>(this._prop);
   private users: IUser[] = [
     {
       id: 1,
@@ -248,17 +250,40 @@ export class UserService {
     return this.users;
   }
 
+  // getUsersViaREST(): Observable<IUser[]> {
+  //   let headers = new HttpHeaders().set('Authorization', 'Bearer your-access-token-here')
+  //   return this.http.get<IUser[]>(this._rootUrl, { headers });
+  // }
+
+  /**
+   * Passing the transformed data to the observers
+   */
   getUsersViaREST(): Observable<IUser[]> {
-    let headers = new HttpHeaders().set('Authorization', 'Bearer your-access-token-here')
-    return this.http.get<IUser[]>(this._rootUrl, { headers });
+    let headers = new HttpHeaders().set('Authorization', 'Bearer your-access-token-here');
+    return this.http.get<IUser[]>(this._rootUrl, { headers })
+            .pipe(map((user) =>{
+              return this.users.map((user) => {
+                return {
+                  id: user.id,
+                  name: user.name,
+                  username: user.username,
+                  email: user.email,
+                  address: user.address
+                }
+              })
+            }));
   }
 
   getUserById(id: number): IUser {
     return this.users.filter((user) => user.id === id)[0];
   }
 
-  getUserByIdREST(id: number): Observable<IUser> {
+  getUserByIdREST(id: number): Observable<IUser> | any{
     return this.http.get<IUser>(`${this._rootUrl}/${id}`)
+        .pipe(retry(3)).pipe(catchError((error) => {
+          console.log('Got an error as: ',error);
+          return error;
+        }));
   }
 
   createUser(user: IUser): Observable<IUser> {
@@ -276,6 +301,15 @@ export class UserService {
   getUserPosts(id: number): Observable<any>{
     let params = new HttpParams().set('userId', id.toString());
     return this.http.get(this._rootPostsUrl, { params });
+  }
+
+  setProp(prop:string): void{
+    this._prop = prop;
+    this.propChanged.next(this._prop);
+  }
+
+  getProp() : string {
+    return this._prop;
   }
 
 }

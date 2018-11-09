@@ -127,6 +127,14 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## HttpClientModule
 ![Alt text](./Screenshoots/Screenshot36.png?raw=true "Optional Title")
 
+## Observable
+![Alt text](./Screenshoots/Screenshot37.png?raw=true "Optional Title")
+
+## Observable Vs Promise
+![Alt text](./Screenshoots/Screenshot38.png?raw=true "Optional Title")
+
+## Subject
+![Alt text](./Screenshoots/Screenshot39.png?raw=true "Optional Title")
 
 
 
