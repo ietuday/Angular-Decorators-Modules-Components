@@ -1,10 +1,15 @@
 import { Injectable } from '@angular/core';
-import { IUser } from 'src/app/interfaces/user';
+import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 
+import { IUser } from 'src/app/interfaces/user';
+import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
 export class UserService {
+  private _rootUrl: string = 'https://jsonplaceholder.typicode.com/users';
+  private _rootPostsUrl: string = 'https://jsonplaceholder.typicode.com/posts';
+
   private users: IUser[] = [
     {
       id: 1,
@@ -237,9 +242,40 @@ export class UserService {
       },
     },
   ];
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
-  getUsers(): IUser[]{
+  getUsers(): IUser[] {
     return this.users;
   }
+
+  getUsersViaREST(): Observable<IUser[]> {
+    let headers = new HttpHeaders().set('Authorization', 'Bearer your-access-token-here')
+    return this.http.get<IUser[]>(this._rootUrl, { headers });
+  }
+
+  getUserById(id: number): IUser {
+    return this.users.filter((user) => user.id === id)[0];
+  }
+
+  getUserByIdREST(id: number): Observable<IUser> {
+    return this.http.get<IUser>(`${this._rootUrl}/${id}`)
+  }
+
+  createUser(user: IUser): Observable<IUser> {
+    return this.http.post<IUser>(this._rootUrl, user);
+  }
+
+  updateUser(user: IUser): Observable<IUser> {
+    return this.http.put<IUser>(`${this._rootUrl}/${user.id}`, user);
+  }
+
+  deleteUser(id: number): Observable<IUser> {
+    return this.http.delete<IUser>(`${this._rootUrl}/${id}`);
+  }
+
+  getUserPosts(id: number): Observable<any>{
+    let params = new HttpParams().set('userId', id.toString());
+    return this.http.get(this._rootPostsUrl, { params });
+  }
+
 }

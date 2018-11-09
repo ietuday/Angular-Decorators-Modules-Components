@@ -119,7 +119,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ![Alt text](./Screenshoots/Screenshot33.png?raw=true "Optional Title")
 
 ## Hierarchical DI
-![Alt text](./Screenshoots/Screenshot33.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot34.png?raw=true "Optional Title")
+
+## Services
+![Alt text](./Screenshoots/Screenshot35.png?raw=true "Optional Title")
+
+## HttpClientModule
+![Alt text](./Screenshoots/Screenshot36.png?raw=true "Optional Title")
 
 
 

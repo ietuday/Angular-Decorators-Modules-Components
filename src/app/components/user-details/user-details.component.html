@@ -1,7 +1,19 @@
-
-  <h4>Detail of {{user.name}}</h4>
-  <div>User ID: {{user.id}}</div>
-  <div>User Name: {{user.name}}</div>
-  <div>User Username: {{user.username}}</div>
-  <div>User Phone: {{user.phone}}</div>
-  <div>User Website: {{user.website}}</div>
+<div *ngIf="user">
+      <h4>Detail of {{user?.name}}</h4>
+      <div>User ID: {{user?.id}}</div>
+      <div>User Name: {{user?.name}}</div>
+      <div>User Username: {{user?.username}}</div>
+      <div>User Phone: {{user?.phone}}</div>
+      <div>User Website: {{user?.website}}</div>
+      <div>User Address: <br>
+            <pre>{{user?.address | json }}</pre>
+      </div>
+      <hr />
+      <button class="btn btn-sucess"  (click)="createUser()">Create User</button>
+      <button class="btn btn-primary" (click)="updateUser()">Update User</button>
+      <button class="btn btn-danger"  (click)="deleteUser()">Delete User</button>
+      <button class="btn btn-warning" (click)="getUserPosts()">Get Posts by User</button>
+      <hr/>
+      <h4>User's Posts</h4>
+      <pre>{{posts | async | json}}</pre>
+</div>
