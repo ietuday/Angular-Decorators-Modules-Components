@@ -1,12 +1,13 @@
 import { Component, OnInit, ViewChild, AfterViewInit, ViewChildren, QueryList, ContentChild, ContentChildren } from '@angular/core';
 import { MessageComponent } from '../message/message.component';
+import { CanComponentDeactivate } from '../../guards/confirmation/confirmation.guard';
 
 @Component({
   selector: 'app-message-list',
   templateUrl: './message-list.component.html',
   styleUrls: ['./message-list.component.scss']
 })
-export class MessageListComponent implements OnInit,AfterViewInit {
+export class MessageListComponent implements OnInit,AfterViewInit,CanComponentDeactivate {
   
   // @ViewChild(MessageComponent) messageComponent: MessageComponent;
   // @ViewChildren(MessageComponent) AllmessageComponent: QueryList<MessageComponent>;
@@ -60,6 +61,10 @@ export class MessageListComponent implements OnInit,AfterViewInit {
 
   changeFirstMessage(){
     this.messages[0].message = 'New and Changed Message!';
+  }
+
+  confirm():boolean{
+    return confirm('Are you sure want to navigate away?');
   }
 
 }
