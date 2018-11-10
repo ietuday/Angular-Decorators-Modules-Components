@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AboutComponent } from './components/about/about.component';
@@ -22,6 +23,10 @@ import { PlaceholderComponent } from './components/placeholder/placeholder.compo
 import { ParentShareComponent } from './components/parent-share/parent-share.component';
 import { OneComponent } from './components/one/one.component';
 import { TwoComponent } from './components/two/two.component';
+import { BuiltInStrDirComponent } from './components/built-in-str-dir/built-in-str-dir.component';
+import { BuiltInAttrDirComponent } from './components/built-in-attr-dir/built-in-attr-dir.component';
+import { ChangeCaseDirective } from './directives/changeCase/change-case.directive';
+import { DirectiveHostComponent } from './components/directive-host/directive-host.component';
 
 
 @NgModule({
@@ -42,11 +47,16 @@ import { TwoComponent } from './components/two/two.component';
     PlaceholderComponent,
     ParentShareComponent,
     OneComponent,
-    TwoComponent
+    TwoComponent,
+    BuiltInStrDirComponent,
+    BuiltInAttrDirComponent,
+    ChangeCaseDirective,
+    DirectiveHostComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    CommonModule,
     FormsModule,
     HttpClientModule,
     NgbModule

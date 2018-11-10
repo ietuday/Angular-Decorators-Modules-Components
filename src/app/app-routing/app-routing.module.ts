@@ -12,6 +12,9 @@ import { MessageListComponent } from '../components/message-list/message-list.co
 import { ConfirmationGuard } from '../guards/confirmation/confirmation.guard';
 import { UsersResolveGuard } from '../guards/users-resolve/users-resolve.guard';
 import { ParentShareComponent } from '../components/parent-share/parent-share.component';
+import { BuiltInStrDirComponent } from '../components/built-in-str-dir/built-in-str-dir.component';
+import { BuiltInAttrDirComponent } from '../components/built-in-attr-dir/built-in-attr-dir.component';
+import { DirectiveHostComponent } from '../components/directive-host/directive-host.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent},
@@ -29,6 +32,9 @@ const appRoutes: Routes = [
   ]},
   { path: 'messages', component: MessageListComponent, canDeactivate: [ ConfirmationGuard]},
   { path: 'parent-share', component: ParentShareComponent},
+  { path: 'str-dir', component: BuiltInStrDirComponent},
+  { path: 'attr-dir', component: BuiltInAttrDirComponent},
+  { path: 'directives', component: DirectiveHostComponent},
   { path: '**', redirectTo: '/home', pathMatch: 'full'}
 
 

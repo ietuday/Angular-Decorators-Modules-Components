@@ -136,6 +136,17 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Subject
 ![Alt text](./Screenshoots/Screenshot39.png?raw=true "Optional Title")
 
+## Directive
+![Alt text](./Screenshoots/Screenshot40.png?raw=true "Optional Title")
+
+## Types of Directive
+![Alt text](./Screenshoots/Screenshot41.png?raw=true "Optional Title")
+
+## Built-in Directive
+![Alt text](./Screenshoots/Screenshot42.png?raw=true "Optional Title")
+
+## Custom Directive
+![Alt text](./Screenshoots/Screenshot43.png?raw=true "Optional Title")
 
 
 ## Important Articles
