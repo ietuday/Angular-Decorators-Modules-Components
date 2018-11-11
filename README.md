@@ -148,6 +148,32 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Custom Directive
 ![Alt text](./Screenshoots/Screenshot43.png?raw=true "Optional Title")
 
+## Pipes
+![Alt text](./Screenshoots/Screenshot44.png?raw=true "Optional Title")
+
+## Custom Pipes
+![Alt text](./Screenshoots/Screenshot45.png?raw=true "Optional Title")
+
+## Decorators
+![Alt text](./Screenshoots/Screenshot46.png?raw=true "Optional Title")
+
+## Class Decorators
+![Alt text](./Screenshoots/Screenshot47.png?raw=true "Optional Title")
+
+## Property Decorators
+![Alt text](./Screenshoots/Screenshot48.png?raw=true "Optional Title")
+
+## Method Decorators
+![Alt text](./Screenshoots/Screenshot49.png?raw=true "Optional Title")
+
+## Parameter Decorators
+![Alt text](./Screenshoots/Screenshot50.png?raw=true "Optional Title")
+
+## Custom Decorators
+![Alt text](./Screenshoots/Screenshot51.png?raw=true "Optional Title")
+
+## Custom Property Decorators
+![Alt text](./Screenshoots/Screenshot52.png?raw=true "Optional Title")
 
 ## Important Articles
 

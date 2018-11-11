@@ -5,7 +5,7 @@
 
 
 
-
+<!-- 
 <app-child [user]="user"></app-child>
 
 <br /><br />
@@ -27,7 +27,18 @@
     <li class="list-group item">
         Date with Pipes and Params: {{ dateToday | date: 'full' | lowercase}}
     </li>
-    <!--<li class="list-group item">
-        Date without Pipe: {{ dateToday }}
-    </li> -->
+</ul> -->
+
+<h4>
+    Pure and Impure Pipe
+</h4>
+
+<button class="btn btn-primary" (click)="addUser()">Add User</button>
+<input type="text" [(ngModel)]="filterIdType">
+<ul class="list-group">
+    <li class="list-group item" *ngFor="let user of users | filter : filterIdType">
+        <div class="alert alert-success" role="alert">
+            UserID: {{user?.id}}, UserName: {{user?.name}}
+        </div>
+    </li>
 </ul>

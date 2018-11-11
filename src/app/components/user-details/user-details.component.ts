@@ -8,6 +8,7 @@ import { UserService } from '../../services/user/user.service';
   templateUrl: './user-details.component.html',
   styleUrls: ['./user-details.component.scss']
 })
+
 export class UserDetailsComponent implements OnInit {
   user: IUser;
   posts:any;

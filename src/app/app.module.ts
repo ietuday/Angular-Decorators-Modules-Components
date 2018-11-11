@@ -28,6 +28,9 @@ import { BuiltInAttrDirComponent } from './components/built-in-attr-dir/built-in
 import { ChangeCaseDirective } from './directives/changeCase/change-case.directive';
 import { DirectiveHostComponent } from './components/directive-host/directive-host.component';
 import { UnlessDirective } from './directives/unless/unless.directive';
+import { AppendorPipe } from './pipes/appendor/appendor.pipe';
+import { FilterPipe } from './pipes/filter/filter.pipe';
+
 
 
 @NgModule({
@@ -53,7 +56,9 @@ import { UnlessDirective } from './directives/unless/unless.directive';
     BuiltInAttrDirComponent,
     ChangeCaseDirective,
     DirectiveHostComponent,
-    UnlessDirective
+    UnlessDirective,
+    AppendorPipe,
+    FilterPipe
   ],
   imports: [
     BrowserModule,

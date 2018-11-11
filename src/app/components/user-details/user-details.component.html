@@ -3,7 +3,8 @@
       <div>User ID: {{user?.id}}</div>
       <div>User Name: {{user?.name}}</div>
       <div>User Username: {{user?.username}}</div>
-      <div>User Phone: {{user?.phone}}</div>
+      <div>User Email: <a href="{{ user?.email | appendor : 'pre' : 'mailto://'}}">{{ user?.email }}</a></div>
+      <div>User Phone: <a href="{{ user?.phone | appendor : 'pre' : 'tel://'}}">{{user?.phone}}</a></div>
       <div>User Website: {{user?.website}}</div>
       <div>User Address: <br>
             <pre>{{user?.address | json }}</pre>
