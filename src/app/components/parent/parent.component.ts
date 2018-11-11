@@ -10,10 +10,12 @@ export class ParentComponent implements OnInit, AfterViewInit {
   // counter:number = 0;
   // // @ViewChild(ChildComponent) child: ChildComponent;
   user: { name: string } = { name : 'Jacob'};
+  dateToday:string;
 
   constructor() { }
 
   ngOnInit() {
+    this.dateToday = new Date().toDateString();
   }
 
   ngAfterViewInit(){

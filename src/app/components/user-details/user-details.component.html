@@ -15,5 +15,5 @@
       <button class="btn btn-warning" (click)="getUserPosts()">Get Posts by User</button>
       <hr/>
       <h4>User's Posts</h4>
-      <pre>{{posts | async | json}}</pre>
+      <pre>{{posts | async | json | titlecase}}</pre>
 </div>

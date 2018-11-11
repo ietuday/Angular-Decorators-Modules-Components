@@ -15,6 +15,7 @@ import { ParentShareComponent } from '../components/parent-share/parent-share.co
 import { BuiltInStrDirComponent } from '../components/built-in-str-dir/built-in-str-dir.component';
 import { BuiltInAttrDirComponent } from '../components/built-in-attr-dir/built-in-attr-dir.component';
 import { DirectiveHostComponent } from '../components/directive-host/directive-host.component';
+import { ParentComponent } from '../components/parent/parent.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent},
@@ -32,6 +33,7 @@ const appRoutes: Routes = [
   ]},
   { path: 'messages', component: MessageListComponent, canDeactivate: [ ConfirmationGuard]},
   { path: 'parent-share', component: ParentShareComponent},
+  { path: 'parent', component: ParentComponent},
   { path: 'str-dir', component: BuiltInStrDirComponent},
   { path: 'attr-dir', component: BuiltInAttrDirComponent},
   { path: 'directives', component: DirectiveHostComponent},
