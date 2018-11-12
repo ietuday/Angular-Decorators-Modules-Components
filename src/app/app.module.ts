@@ -4,6 +4,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AboutComponent } from './components/about/about.component';
 import { AppComponent } from './app.component';
@@ -32,8 +33,6 @@ import { AppendorPipe } from './pipes/appendor/appendor.pipe';
 import { FilterPipe } from './pipes/filter/filter.pipe';
 import { NewUserComponent } from './components/new-user/new-user.component';
 import { NewUserReactiveComponent } from './components/new-user-reactive/new-user-reactive.component';
-
-
 
 @NgModule({
   declarations: [
@@ -71,7 +70,8 @@ import { NewUserReactiveComponent } from './components/new-user-reactive/new-use
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    NgbModule
+    NgbModule,
+    MDBBootstrapModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

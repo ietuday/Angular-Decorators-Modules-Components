@@ -183,6 +183,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ![Alt text](./Screenshoots/Screenshot55.png?raw=true "Optional Title")
 ![Alt text](./Screenshoots/Screenshot56.png?raw=true "Optional Title")
 
+## Adding Firebase
+![Alt text](./Screenshoots/Screenshot57.png?raw=true "Optional Title")
+
 
 ## Important Articles
 
