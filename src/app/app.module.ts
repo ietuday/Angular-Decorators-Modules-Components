@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
@@ -30,6 +30,8 @@ import { DirectiveHostComponent } from './components/directive-host/directive-ho
 import { UnlessDirective } from './directives/unless/unless.directive';
 import { AppendorPipe } from './pipes/appendor/appendor.pipe';
 import { FilterPipe } from './pipes/filter/filter.pipe';
+import { NewUserComponent } from './components/new-user/new-user.component';
+import { NewUserReactiveComponent } from './components/new-user-reactive/new-user-reactive.component';
 
 
 
@@ -58,14 +60,17 @@ import { FilterPipe } from './pipes/filter/filter.pipe';
     DirectiveHostComponent,
     UnlessDirective,
     AppendorPipe,
-    FilterPipe
+    FilterPipe,
+    NewUserComponent,
+    NewUserReactiveComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CommonModule,
-    FormsModule,
     HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
     NgbModule
   ],
   providers: [],

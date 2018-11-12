@@ -175,6 +175,15 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Custom Property Decorators
 ![Alt text](./Screenshoots/Screenshot52.png?raw=true "Optional Title")
 
+## Template Driven Form
+![Alt text](./Screenshoots/Screenshot53.png?raw=true "Optional Title")
+
+## Reactive Form
+![Alt text](./Screenshoots/Screenshot54.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot55.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot56.png?raw=true "Optional Title")
+
+
 ## Important Articles
 
 [How to manually bootstrap an Angular application](https://blog.angularindepth.com/how-to-manually-bootstrap-an-angular-application-9a36ccf86429)
