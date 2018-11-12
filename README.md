@@ -190,7 +190,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ![Alt text](./Screenshoots/Screenshot58.png?raw=true "Optional Title")
 
 ## Updating Records Firebase
-![Alt text](./Screenshoots/Screenshot 59.png?raw=true "Optional Title")
+![Alt text](./Screenshoots/Screenshot%2059.png?raw=true "Optional Title")
 
 ## Adding Firebase
 ![Alt text](./Screenshoots/Screenshot60.png?raw=true "Optional Title")
